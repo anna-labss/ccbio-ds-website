@@ -735,8 +735,84 @@
                     </div>
                 </div>
 
-                <!-- Accent Orange 팔레트 -->
-                <h3 style="font-size: 16px; font-weight: 600; margin-top: 60px; margin-bottom: 16px;">Accent Orange (11 Levels)</h3>
+                <!-- Primary Green States -->
+                <h3 style="font-size: 16px; font-weight: 600; margin-top: 60px; margin-bottom: 16px;">Primary Green States</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 13px;">상호작용 상태에 따른 Primary Green의 상태 변화. 버튼, 링크, 인터랙티브 요소에 적용.</p>
+                <div style="display: flex; gap: 24px; flex-wrap: wrap; align-items: flex-start;">
+                    <!-- Enabled 100% -->
+                    <div style="text-align: center; flex: 1; min-width: 140px;">
+                        <p style="margin-bottom: 8px; font-size: 13px; font-weight: 600; color: var(--text-primary);">Enabled</p>
+                        <p style="font-size: 12px; margin-bottom: 12px; color: var(--text-secondary);">100%</p>
+                        <button style="
+                            width: 100%;
+                            padding: 10px 16px;
+                            background: #2F4B2D;
+                            color: white;
+                            border: none;
+                            border-radius: 8px;
+                            font-size: 13px;
+                            font-weight: 500;
+                            cursor: pointer;
+                            transition: all 0.2s ease;
+                        " onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">Label</button>
+                    </div>
+
+                    <!-- Hover 70% -->
+                    <div style="text-align: center; flex: 1; min-width: 140px;">
+                        <p style="margin-bottom: 8px; font-size: 13px; font-weight: 600; color: var(--text-primary);">Hover</p>
+                        <p style="font-size: 12px; margin-bottom: 12px; color: var(--text-secondary);">70%</p>
+                        <button style="
+                            width: 100%;
+                            padding: 10px 16px;
+                            background: rgba(47, 75, 45, 0.7);
+                            color: white;
+                            border: none;
+                            border-radius: 8px;
+                            font-size: 13px;
+                            font-weight: 500;
+                            cursor: pointer;
+                        ">Label</button>
+                    </div>
+
+                    <!-- Pressed 50% -->
+                    <div style="text-align: center; flex: 1; min-width: 140px;">
+                        <p style="margin-bottom: 8px; font-size: 13px; font-weight: 600; color: var(--text-primary);">Pressed</p>
+                        <p style="font-size: 12px; margin-bottom: 12px; color: var(--text-secondary);">50%</p>
+                        <button style="
+                            width: 100%;
+                            padding: 10px 16px;
+                            background: rgba(47, 75, 45, 0.5);
+                            color: white;
+                            border: none;
+                            border-radius: 8px;
+                            font-size: 13px;
+                            font-weight: 500;
+                            cursor: pointer;
+                        ">Label</button>
+                    </div>
+
+                    <!-- Disabled -->
+                    <div style="text-align: center; flex: 1; min-width: 140px;">
+                        <p style="margin-bottom: 8px; font-size: 13px; font-weight: 600; color: var(--text-primary);">Disabled</p>
+                        <p style="font-size: 12px; margin-bottom: 12px; color: var(--text-secondary);">—</p>
+                        <button disabled style="
+                            width: 100%;
+                            padding: 10px 16px;
+                            background: #E5E7EB;
+                            color: #9CA3AF;
+                            border: none;
+                            border-radius: 8px;
+                            font-size: 13px;
+                            font-weight: 500;
+                            cursor: not-allowed;
+                            opacity: 0.6;
+                        ">Label</button>
+                    </div>
+                </div>
+
+
+                <!-- Secondary Orange 팔레트 -->
+                <h3 style="font-size: 16px; font-weight: 600; margin-top: 60px; margin-bottom: 16px;">Secondary Orange (11 Levels)</h3>
                 <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 13px;">보조 강조, 배지, 알림에 사용. 11단계로 확장 가능한 구조.</p>
                 <div class="color-grid">
                     <div class="color-card">
@@ -825,6 +901,101 @@
                             <div class="color-name">Orange 100</div>
                             <div class="color-value">#FFFFFF</div>
                             <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;">✓✓✓ 15:1</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Gray Scale 팔레트 -->
+                <h3 style="font-size: 16px; font-weight: 600; margin-top: 60px; margin-bottom: 16px;">Gray Scale (11 Levels)</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 13px;">텍스트, 배경, 테두리, 비활성화 상태에 사용. 11단계로 확장 가능한 구조.</p>
+                <div class="color-grid">
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #111111;"></div>
+                        <div class="color-info">
+                            <div class="color-name">Gray 900</div>
+                            <div class="color-value">#111111</div>
+                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;"></div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #303030;"></div>
+                        <div class="color-info">
+                            <div class="color-name">Gray 800</div>
+                            <div class="color-value">#303030</div>
+                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;"></div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #555555;"></div>
+                        <div class="color-info">
+                            <div class="color-name">Gray 700</div>
+                            <div class="color-value">#555555</div>
+                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;"></div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #777777;"></div>
+                        <div class="color-info">
+                            <div class="color-name">Gray 600</div>
+                            <div class="color-value">#777777</div>
+                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;"></div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #949494;"></div>
+                        <div class="color-info">
+                            <div class="color-name">Gray 500</div>
+                            <div class="color-value">#949494</div>
+                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;"></div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #B7B7B7;"></div>
+                        <div class="color-info">
+                            <div class="color-name">Gray 400</div>
+                            <div class="color-value">#B7B7B7</div>
+                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;"></div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #C8C8C8;"></div>
+                        <div class="color-info">
+                            <div class="color-name">Gray 350</div>
+                            <div class="color-value">#C8C8C8</div>
+                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;"></div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #DFDFDF;"></div>
+                        <div class="color-info">
+                            <div class="color-name">Gray 300</div>
+                            <div class="color-value">#DFDFDF</div>
+                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;"></div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #EFEFEF;"></div>
+                        <div class="color-info">
+                            <div class="color-name">Gray 200</div>
+                            <div class="color-value">#EFEFEF</div>
+                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;"></div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #F5F5F5;"></div>
+                        <div class="color-info">
+                            <div class="color-name">Gray 150</div>
+                            <div class="color-value">#F5F5F5</div>
+                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;"></div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #FCFCFC;"></div>
+                        <div class="color-info">
+                            <div class="color-name">Gray 100</div>
+                            <div class="color-value">#FCFCFC</div>
+                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;"></div>
                         </div>
                     </div>
                 </div>
@@ -1030,50 +1201,132 @@
                     <span style="color: var(--text-secondary);">/ Typography</span>
                 </div>
                 <h1>Typography</h1>
-                <p>명확한 정보 전달을 위한 타이포그래피 시스템입니다.</p>
+                <p>접근성과 가독성을 중심으로 한 Korea Design System(KRDS) 기반 타이포그래피 시스템입니다.</p>
 
-                <div class="typography-guide">
-                    <h3>🎨 Pretendard 폰트 가이드</h3>
-                    <p><strong>Pretendard는 CCB-DS의 공식 글꼴입니다.</strong></p>
-                    <p>한국어 가독성을 최적화한 오픈소스 글꼴로, 모든 텍스트에 일관되게 적용됩니다.</p>
-                    
-                    <h4 style="font-size: 14px; font-weight: 600; color: var(--primary-green); margin-top: 20px; margin-bottom: 12px;">사용 원칙</h4>
-                    <ul>
-                        <li><strong>일관성:</strong> 모든 UI에서 Pretendard를 사용하여 브랜드 통일성 확보</li>
-                        <li><strong>가독성:</strong> 큰 라인하이트(1.6~1.8)로 농가 사용자의 편의성 향상</li>
-                        <li><strong>무게감:</strong> Weight 400(Regular), 600(SemiBold), 700(Bold) 3단계 활용</li>
-                        <li><strong>크기:</strong> 12px 이상에서 사용하며, 10px 이하는 피할 것</li>
-                    </ul>
-
-                    <h4 style="font-size: 14px; font-weight: 600; color: var(--primary-green); margin-top: 20px; margin-bottom: 12px;">로드 방식</h4>
-                    <p style="font-family: 'Monaco', monospace; background: #f5f5f5; padding: 12px; border-radius: 6px; font-size: 12px;">
-                        &lt;link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" rel="stylesheet" /&gt;
-                    </p>
+                <!-- 기본 원칙 -->
+                <div style="background: linear-gradient(135deg, rgba(47, 75, 45, 0.05) 0%, rgba(209, 131, 34, 0.05) 100%); padding: 24px; border-radius: 12px; margin-top: 40px; margin-bottom: 40px;">
+                    <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 16px; color: var(--primary-green);">📋 KRDS Typography 기본 원칙</h3>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;">
+                        <div>
+                            <p style="font-weight: 600; font-size: 14px; margin-bottom: 8px;">✓ 폰트</p>
+                            <p style="font-size: 13px; color: var(--text-secondary);">Pretendard GOV (공공기관 접근성 최적화)</p>
+                        </div>
+                        <div>
+                            <p style="font-weight: 600; font-size: 14px; margin-bottom: 8px;">✓ 기본 크기</p>
+                            <p style="font-size: 13px; color: var(--text-secondary);">17px (상대 가독성 향상)</p>
+                        </div>
+                        <div>
+                            <p style="font-weight: 600; font-size: 14px; margin-bottom: 8px;">✓ 굵기</p>
+                            <p style="font-size: 13px; color: var(--text-secondary);">Regular (400) / Bold (700)</p>
+                        </div>
+                        <div>
+                            <p style="font-weight: 600; font-size: 14px; margin-bottom: 8px;">✓ 줄높이</p>
+                            <p style="font-size: 13px; color: var(--text-secondary);">최소 150% (1.5em 이상)</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div style="margin-top: 40px;">
-                    <div class="card" style="margin-bottom: 16px;">
-                        <h3 style="font-size: 24px;">Heading 1 (h1)</h3>
-                        <p style="font-size: 12px; color: var(--text-secondary);">36px / 700 Weight / 페이지 제목</p>
+                <!-- 타입 계층 -->
+                <h2 style="font-size: 18px; font-weight: 600; margin-top: 40px; margin-bottom: 24px;">Type Scale & Hierarchy</h2>
+
+                <!-- Display -->
+                <div style="margin-bottom: 32px;">
+                    <h3 style="font-size: 14px; font-weight: 600; color: var(--text-secondary); margin-bottom: 16px;">Display (배너 텍스트)</h3>
+                    <div style="background: white; border: 1px solid var(--border); border-radius: 8px; padding: 24px;">
+                        <div style="font-size: 48px; font-weight: 700; line-height: 1.2; margin-bottom: 12px;">Display Text</div>
+                        <div style="font-size: 12px; color: var(--text-secondary);">
+                            <p><strong>크기:</strong> 48px | <strong>굵기:</strong> 700 (Bold) | <strong>줄높이:</strong> 120% (1.2em)</p>
+                            <p><strong>용도:</strong> 캠페인, 히어로 섹션, 주요 공지</p>
+                        </div>
                     </div>
-                    <div class="card" style="margin-bottom: 16px;">
-                        <h3 style="font-size: 20px;">Heading 2 (h2)</h3>
-                        <p style="font-size: 12px; color: var(--text-secondary);">24px / 600 Weight / 섹션 제목</p>
+                </div>
+
+                <!-- Headings -->
+                <div style="margin-bottom: 32px;">
+                    <h3 style="font-size: 14px; font-weight: 600; color: var(--text-secondary); margin-bottom: 16px;">Heading Levels</h3>
+                    
+                    <div style="background: white; border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin-bottom: 16px;">
+                        <div style="font-size: 36px; font-weight: 700; line-height: 1.3; margin-bottom: 12px;">Heading 1 (h1)</div>
+                        <div style="font-size: 12px; color: var(--text-secondary);">
+                            <p><strong>크기:</strong> 36px | <strong>굵기:</strong> 700 (Bold) | <strong>줄높이:</strong> 130% (1.3em)</p>
+                            <p><strong>용도:</strong> 페이지 제목</p>
+                        </div>
                     </div>
-                    <div class="card" style="margin-bottom: 16px;">
-                        <h3 style="font-size: 18px;">Heading 3 (h3)</h3>
-                        <p style="font-size: 12px; color: var(--text-secondary);">18px / 600 Weight / 소제목</p>
+
+                    <div style="background: white; border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin-bottom: 16px;">
+                        <div style="font-size: 28px; font-weight: 700; line-height: 1.4; margin-bottom: 12px;">Heading 2 (h2)</div>
+                        <div style="font-size: 12px; color: var(--text-secondary);">
+                            <p><strong>크기:</strong> 28px | <strong>굵기:</strong> 700 (Bold) | <strong>줄높이:</strong> 140% (1.4em)</p>
+                            <p><strong>용도:</strong> 섹션 제목</p>
+                        </div>
                     </div>
-                    <div class="card" style="margin-bottom: 16px;">
-                        <p style="font-size: 15px;">Body Text</p>
-                        <p style="font-size: 12px; color: var(--text-secondary);">15px / 400 Weight / 본문 텍스트</p>
+
+                    <div style="background: white; border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin-bottom: 16px;">
+                        <div style="font-size: 22px; font-weight: 700; line-height: 1.4; margin-bottom: 12px;">Heading 3 (h3)</div>
+                        <div style="font-size: 12px; color: var(--text-secondary);">
+                            <p><strong>크기:</strong> 22px | <strong>굵기:</strong> 700 (Bold) | <strong>줄높이:</strong> 140% (1.4em)</p>
+                            <p><strong>용도:</strong> 소제목</p>
+                        </div>
                     </div>
-                    <div class="card">
-                        <p style="font-size: 13px;">Small Text</p>
-                        <p style="font-size: 12px; color: var(--text-secondary);">13px / 400 Weight / 보조 텍스트</p>
+
+                    <div style="background: white; border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin-bottom: 16px;">
+                        <div style="font-size: 18px; font-weight: 700; line-height: 1.5; margin-bottom: 12px;">Heading 4 (h4)</div>
+                        <div style="font-size: 12px; color: var(--text-secondary);">
+                            <p><strong>크기:</strong> 18px | <strong>굵기:</strong> 700 (Bold) | <strong>줄높이:</strong> 150% (1.5em)</p>
+                            <p><strong>용도:</strong> 항목 제목</p>
+                        </div>
+                    </div>
+
+                    <div style="background: white; border: 1px solid var(--border); border-radius: 8px; padding: 24px;">
+                        <div style="font-size: 16px; font-weight: 700; line-height: 1.5; margin-bottom: 12px;">Heading 5 (h5)</div>
+                        <div style="font-size: 12px; color: var(--text-secondary);">
+                            <p><strong>크기:</strong> 16px | <strong>굵기:</strong> 700 (Bold) | <strong>줄높이:</strong> 150% (1.5em)</p>
+                            <p><strong>용도:</strong> 부제목</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Body -->
+                <div style="margin-bottom: 32px;">
+                    <h3 style="font-size: 14px; font-weight: 600; color: var(--text-secondary); margin-bottom: 16px;">Body Text</h3>
+                    
+                    <div style="background: white; border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin-bottom: 16px;">
+                        <div style="font-size: 17px; font-weight: 400; line-height: 1.6; margin-bottom: 12px;">Body (본문) - 명확한 정보 전달을 위한 기본 텍스트입니다. 충분한 줄높이로 가독성을 보장합니다.</div>
+                        <div style="font-size: 12px; color: var(--text-secondary);">
+                            <p><strong>크기:</strong> 17px (기본) | <strong>굵기:</strong> 400 (Regular) | <strong>줄높이:</strong> 160% (1.6em)</p>
+                            <p><strong>용도:</strong> 본문 콘텐츠, 설명 텍스트</p>
+                        </div>
+                    </div>
+
+                    <div style="background: white; border: 1px solid var(--border); border-radius: 8px; padding: 24px;">
+                        <div style="font-size: 15px; font-weight: 400; line-height: 1.6; margin-bottom: 12px;">Small (보조) - 주석, 부가 설명, 메타데이터 등에 사용됩니다.</div>
+                        <div style="font-size: 12px; color: var(--text-secondary);">
+                            <p><strong>크기:</strong> 15px | <strong>굵기:</strong> 400 (Regular) | <strong>줄높이:</strong> 160% (1.6em)</p>
+                            <p><strong>용도:</strong> 보조 텍스트, 캡션</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 접근성 -->
+                <div style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, rgba(59, 130, 246, 0.05) 100%); padding: 24px; border-radius: 12px; margin-top: 40px;">
+                    <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 16px; color: var(--primary-green);">♿ WCAG 접근성 대비율</h3>
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
+                        <div>
+                            <p style="font-weight: 600; font-size: 13px; color: #059669; margin-bottom: 4px;">✓✓✓ 15:1</p>
+                            <p style="font-size: 12px; color: var(--text-secondary);">AAA 최고 표준 (고대비 모드)</p>
+                        </div>
+                        <div>
+                            <p style="font-weight: 600; font-size: 13px; color: #059669; margin-bottom: 4px;">✓✓ 7:1</p>
+                            <p style="font-size: 12px; color: var(--text-secondary);">AAA 표준 (본문)</p>
+                        </div>
+                        <div>
+                            <p style="font-weight: 600; font-size: 13px; color: #059669; margin-bottom: 4px;">✓ 4.5:1</p>
+                            <p style="font-size: 12px; color: var(--text-secondary);">AA 표준 (인터페이스)</p>
+                        </div>
                     </div>
                 </div>
             </div>
+
 
             <!-- Components: Badges -->
             <div id="components-badges" class="page">
